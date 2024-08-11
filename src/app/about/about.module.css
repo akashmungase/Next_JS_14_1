@@ -1,0 +1,9 @@
+.imageContainer {
+    width: 100%;
+    max-width: 100%;
+}
+
+.fullWidthImage {
+    width: 100%;
+    height: auto;
+}

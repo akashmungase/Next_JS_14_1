@@ -1,9 +1,9 @@
 import { Container } from "react-bootstrap";
 
-export default function Home(){
-    return(
+export default function Contact() {
+    return (
         <Container>
-            <h1>Home</h1>
+            <h1>Contact</h1>
         </Container>
     )
 }

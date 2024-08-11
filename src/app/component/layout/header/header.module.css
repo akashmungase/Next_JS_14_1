@@ -1,0 +1,20 @@
+.navLink {
+    margin-left: auto;
+}
+
+.navLink a {
+    margin-left: auto;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+/* .navLink a:active {
+    border-bottom: 3px solid;
+} */
+
+@media (max-width: 767px) {
+    .link.active {
+        border-bottom: none;
+    }
+}
