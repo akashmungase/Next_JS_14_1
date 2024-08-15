@@ -1,5 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import footerStyle from './footer.module.css'
+import Image from "next/image";
+import footerLogo from '../../../../../public/images/footer-logo.png'
 
 export default function Footer() {
     return (
@@ -7,6 +9,14 @@ export default function Footer() {
             <Container>
                 <Row>
                     <Col>
+                        <div className="mb-3">
+                            <Image
+                                src={footerLogo}
+                                width={150}
+                                height={200}
+                                alt="Footer Image"
+                            />
+                        </div>
                         <h1 className={footerStyle.H1}>REGISTERED ADDRESS</h1>
                         <p className="py-4">
                             B/36, Aryaman Bungalow,

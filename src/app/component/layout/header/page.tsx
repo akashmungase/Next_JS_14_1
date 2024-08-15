@@ -13,8 +13,8 @@ export default function Header() {
         <Navbar.Brand href="/">
           <Image
             src={logo}
-            width={70}
-            height={70}
+            width={80}
+            height={80}
             alt="logo"
           />
         </Navbar.Brand>

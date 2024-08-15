@@ -31,3 +31,10 @@
     text-wrap: balance;
   }
 }
+.primary-text {
+  color: #5a6871;
+}
+
+.theme-color {
+  color: #5db334;
+}
