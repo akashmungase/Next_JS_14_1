@@ -48,7 +48,7 @@ export default function Contact() {
                             </div>
                             <div className="mb-2 d-flex">
                                 <FontAwesomeIcon icon={faEnvelope} style={{ width: '20px', height: '40px', color: '#23a884' }} />
-                                <h4 className="fs-5 pt-2 ps-3 theme-color">info@neprafoundation.org</h4>
+                                <h4 className="fs-5 fw-semibold pt-2 ps-3 theme-color">info@neprafoundation.org</h4>
                             </div>
                         </Col>
                         <Col md="6" xs="12">

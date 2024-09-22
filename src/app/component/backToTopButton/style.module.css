@@ -1,0 +1,27 @@
+.backToTopButton {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    background-color: #5db334;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.backToTopButton:hover {
+    background-color: #cbea24;
+}
+
+.backToTopIcon {
+    width: 13px;
+}

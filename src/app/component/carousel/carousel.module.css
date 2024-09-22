@@ -1,0 +1,32 @@
+.caption {
+    text-align: left;
+    position: absolute;
+    right: 40%;
+    top: 25%;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+}
+
+.slideInLeft {
+    animation: slideInLeft 2s ease forwards;
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .slideInLeft {
+        font-size: 10px !important;
+    }
+}

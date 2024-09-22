@@ -13,17 +13,18 @@ export default function Header() {
         <Navbar.Brand href="/">
           <Image
             src={logo}
-            width={80}
-            height={80}
+            width={90}
+            height={90}
             alt="logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className={headerStyle.navLink}>
-            <Link href={'/home'} className='nav-link'>HOME</Link>
+            <Link href={'/'} className='nav-link'>HOME</Link>
             <Link href={'/about'} className='nav-link'>ABOUT US</Link>
             <Link href={'/impact'} className='nav-link'>IMPACT STORIES</Link>
+            <Link href={'/impact'} className='nav-link'>INSIGHT</Link>
             <Link href={'/contact'} className='nav-link'>CONTACT US</Link>
           </Nav>
         </Navbar.Collapse>

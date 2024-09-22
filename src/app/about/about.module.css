@@ -44,3 +44,9 @@
     word-spacing: 5px;
     line-height: 1.8em;
 }
+
+@media only screen and (max-width: 768px) {
+    .aboutUsText {
+        font-size: 15px;
+    }
+}
