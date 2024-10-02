@@ -1,0 +1,90 @@
+.page-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.preloader {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.preloader>div {
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.preloader span {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 0;
+    -webkit-animation: spinRotate 1.7s 0.2s infinite ease-in-out both;
+    animation: spinRotate 1.7s 0.2s infinite ease-in-out both;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.preloader span:nth-child(1) {
+    background-color: #23a884;
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s;
+}
+
+.preloader span:nth-child(2) {
+    background: #123a54;
+    left: 22px;
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s;
+}
+
+.preloader span:nth-child(3) {
+    background-color: #123a54;
+    left: 0;
+    top: 25px;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+}
+
+.preloader span:nth-child(4) {
+    background-color: #23a884;
+    left: 22px;
+    top: 25px;
+    -webkit-animation-delay: .8s;
+    animation-delay: .8s;
+}
+
+@-webkit-keyframes spinRotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
